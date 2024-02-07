@@ -1,0 +1,54 @@
+/* https://coolors.co/821626-172b21-ffb81e-00000f */
+body{
+    font-family: 'Trebuchet MS';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b3c2c;
+}
+h1{
+    color: #d1930d;
+}
+h2{
+    color: white;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 12px;
+    
+}
+button{
+    background-color: #d1930d;
+    min-width: 150px;
+    margin: 10px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+p{
+    color: white;
+}
+#message-el{
+    font-style: italic;
+}
+#player-el{
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    border: 2px solid #d1930d;
+    border-radius: 3px;
+}
+#bet-el{
+    width: 50px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.card-image{
+    width: 60px;
+    height: auto;
+}
