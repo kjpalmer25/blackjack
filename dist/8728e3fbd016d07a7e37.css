@@ -1,0 +1,61 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `/* https://coolors.co/821626-172b21-ffb81e-00000f */
+body{
+    font-family: 'Trebuchet MS';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b3c2c;
+}
+h1{
+    color: #d1930d;
+}
+h2{
+    color: white;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 12px;
+    
+}
+button{
+    background-color: #d1930d;
+    min-width: 150px;
+    margin: 10px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+p{
+    color: white;
+}
+#message-el{
+    font-style: italic;
+}
+#player-el{
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    border: 2px solid #d1930d;
+    border-radius: 3px;
+}
+#bet-el{
+    width: 50px;
+    height: 20px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.card-image{
+    width: 60px;
+    height: auto;
+}`, "",{"version":3,"sources":["webpack://./src/blackjack.css"],"names":[],"mappings":"AAAA,mDAAmD;AACnD;IACI,2BAA2B;IAC3B,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,yBAAyB;AAC7B;AACA;IACI,cAAc;AAClB;AACA;IACI,YAAY;IACZ,kBAAkB;IAClB,SAAS;IACT,mBAAmB;;AAEvB;AACA;IACI,yBAAyB;IACzB,gBAAgB;IAChB,YAAY;IACZ,YAAY;IACZ,gBAAgB;IAChB,iBAAiB;IACjB,eAAe;IACf,kBAAkB;IAClB,uBAAuB;AAC3B;AACA;IACI,YAAY;AAChB;AACA;IACI,kBAAkB;AACtB;AACA;IACI,kBAAkB;IAClB,WAAW;IACX,QAAQ;IACR,UAAU;IACV,YAAY;IACZ,yBAAyB;IACzB,kBAAkB;AACtB;AACA;IACI,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,uBAAuB;AAC3B;AACA;IACI,WAAW;IACX,YAAY;AAChB","sourcesContent":["/* https://coolors.co/821626-172b21-ffb81e-00000f */\nbody{\n    font-family: 'Trebuchet MS';\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: #1b3c2c;\n}\nh1{\n    color: #d1930d;\n}\nh2{\n    color: white;\n    font-style: italic;\n    margin: 0;\n    margin-bottom: 12px;\n    \n}\nbutton{\n    background-color: #d1930d;\n    min-width: 150px;\n    margin: 10px;\n    padding: 5px;\n    font-size: large;\n    font-weight: bold;\n    cursor: pointer;\n    border-radius: 5px;\n    border: 2px solid black;\n}\np{\n    color: white;\n}\n#message-el{\n    font-style: italic;\n}\n#player-el{\n    position: absolute;\n    margin: 0px;\n    top: 0px;\n    right: 0px;\n    padding: 5px;\n    border: 2px solid #d1930d;\n    border-radius: 3px;\n}\n#bet-el{\n    width: 50px;\n    height: 20px;\n    border-radius: 3px;\n    border: 2px solid black;\n}\n.card-image{\n    width: 60px;\n    height: auto;\n}"],"sourceRoot":""}]);
+// Exports
+export default ___CSS_LOADER_EXPORT___;

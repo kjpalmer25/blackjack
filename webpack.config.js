@@ -13,7 +13,7 @@ const config = {
   output: {
     // the bundle is stored in the 'dist' folder (check package.json), 📖 -> https://webpack.js.org/configuration/output/
     path: path.resolve(__dirname, 'dist'),
-    filename: 'extension.js',
+    filename: 'output.js',
     libraryTarget: 'commonjs2',
     devtoolModuleFilenameTemplate: '../[resource-path]'
   },
@@ -48,6 +48,10 @@ const config = {
       {  //use html loader for html files
         test: /\.html$/i,
         loader: "html-loader",
+      }, 
+      {
+        test: /\.css$/i,
+        use: "css-loader",
       }
     ]
   }
